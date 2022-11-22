@@ -1,36 +1,21 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
     <title>Jonathan Kim</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
+    <meta name="description" content="Jonathan Kim Portfolio">
+    <meta name="author" content="Jonathan Kim">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-    ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> -->
     <link rel="manifest" href="site.webmanifest">
-
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body id="top">
@@ -39,29 +24,42 @@
         <div id="loader"></div>
     </div>
 
-    <!-- site header
-    ================================================== -->
     <header class="s-header">
-
         <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <!-- <img src="images/logo.svg" alt="Homepage"> -->
-                <a class="smoothscroll" href="#intro" title="intro">Jonathan Kim</a>
+                <a class="MainLogo smoothscroll" href="#intro" title="intro">Jonathan Kim</a>
             </a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-main-nav">
-                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Home</a></li>
-                <li><a class="smoothscroll" href="#about" title="about">About Me</a></li>
-                <li><a class="smoothscroll" href="#works" title="works">Projects</a></li>
-                <li><a class="smoothscroll" href="#contact" title="contact Me">Contact Me</a></li>	
+                <li class="current"><a class="smoothscroll" href="#intro" title="Intro">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="Profile">About Me</a></li>
+                <li><a class="smoothscroll" href="#services" title="Skills">Skills</a></li>
+                <li><a class="smoothscroll" href="#projects" title="Projects">Projects</a></li>
+                <li><a class="smoothscroll" href="#contact" title="Contact Me">Contact Me</a></li>	  
             </ul>
 
             <ul class="header-social">
-                <li><a href="https://github.com/jkim1998"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/jonathankim8756/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                <li><a href="#0"><i class="fas fa-address-book" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/jkim1998"><i class="fab fa-github" ></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jonathankim8756/"><i class="fab fa-linkedin-in"></i></a></li>
+                <div class="dropdown"><li><a classname="dropbtn"><i class="fas fa-address-book"></i><span>   </span><i class="fas fa-caret-down"></i></a></li>
+                    <div class="dropdown-content">
+                        <a href="#">
+                            <div className="test123">
+                                <i class="fa fa-envelope"></i>JonathanKim980@gmail.com
+                            </div>
+                        </a>
+                        <a href="#" className="dropdown_contact">
+                            <i class="fa fa-phone icon-rotate icon-flipped"></i>(254) 278-0448
+                        </a>
+                        <a href="#" className="dropdown_contact">
+                            <i class="fa fa-map-marker"></i>United States
+                        </a>
+                        
+                    </div>
+                </div>
             </ul>
         </nav>
 
@@ -155,13 +153,17 @@
     
             <div class="row about-me__buttons">
                 <div class="column large-half tab-full" data-aos="fade-up">
-                    <a href="#0" class="btn btn--stroke full-width">Contact Me</a>
+                    <a href="#contact" class="btn btn--stroke full-width smoothscroll">Contact Me</a>
                 </div>
                 <div class="column large-half tab-full" data-aos="fade-up">
-                    <a href="https://drive.google.com/file/d/1Q_tkY_V-6K9VqElXo2xo__Q_jVcb-ath/view?usp=sharing" class="btn btn--primary full-width">Download CV</a>
+                    <a href="https://drive.google.com/file/d/1Q_tkY_V-6K9VqElXo2xo__Q_jVcb-ath/view?usp=sharing" class="btn btn--primary full-width" target="_blank">Download CV</a>
                 </div>
             </div>
-
+            <div class="scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
         </div> <!-- end about-me -->
 
        
@@ -177,10 +179,10 @@
 
         <div class="row heading-block heading-block--center" data-aos="fade-up">
             <div class="column large-full">
-                <h2 class="section-heading section-heading--centerbottom">Capabilities</h2>
+                <h2 class="section-heading section-heading--centerbottom">Tech Stack</h2>
 
                 <p class="section-desc">
-                    My passion and goal is to help you make your business standout.
+                    comment comment comment comment comment comment comment comment comment comment comment 
                 </p>
             </div>
         </div> <!-- end heading-block -->
@@ -189,67 +191,38 @@
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">Brand Identity</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
+                    <h4 class="item-title">Front End</h4>
+                    <div className="language">
+                        <div class="front">
+                            <a  href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML"/></a>
+                            <a  href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS"/></a>
+                            <a  href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="Javascript"/></a>
+                            <a  href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React"/></a>
+                            <a  href="https://en.wikipedia.org/wiki/AngularJS" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" title="Angular"/></a>
+                            <a  href="https://en.wikipedia.org/wiki/PHP" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" title="PHP"/></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">Illustration</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
+                    <h4 class="item-title">Back End</h4>
+                        <div class="back">
+                            <a  href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" title="Java"/></a>
+                            <a  href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python"/></a>
+                            <a  href="https://en.wikipedia.org/wiki/PHP" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#"/></a>
+                        </div> 
+                        
                 </div>
             </div>
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">Web Design</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
-                </div>
-            </div>
-
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">Product Strategy</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
-                </div>
-            </div>
-
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">UI/UX Design</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
-                </div>
-            </div>
-
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">Mobile Design</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
+                    <h4 class="item-title">Etc</h4>
+                    <div class="etc">
+                        <a href="https://en.wikipedia.org/wiki/MySQL" target="_blank"><img className="clickable" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" title="MySQL"/></a>
+                    </div> 
                 </div>
             </div>
 
@@ -260,12 +233,12 @@
 
     <!-- CTA
     ================================================== -->
-    <section class="s-cta ss-dark">
+    <section class="s-cta ss-dark" id="skills">
 
         <div class="row heading-block heading-block--center" data-aos="fade-up">
             <div class="column large-full">
                 <h2 class="section-desc">
-                    Need a great reliable web hosting?
+                    Need a Website for your business?
                 </h2>
             </div>
         </div> <!-- end heading-block -->
@@ -273,12 +246,12 @@
         <div class="row cta-content" data-aos="fade-up">
             <div class="column large-full">
                 <p>
-                We highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
-                Powerful web and Wordpress hosting. Guaranteed.
-                Starting at $2.95 per month.
+                    As of 2022, 71% of small businesses have websites and 81% of customers research things online before they buy them. 
+                    I can 
                 </p>
 
-                <a href="https://www.dreamhost.com/r.cgi?287326" class="btn full-width">Get Started</a>
+                <a href="#contact" class="btn smoothscroll">Request Quote</a>
+                <a href="#proejcts" class="btn smoothscroll">View Sample</a>
             </div>
         </div> <!-- end ad-content -->
 
@@ -287,7 +260,7 @@
 
     <!-- works
     ================================================== -->
-    <section id="works" class="s-works target-section">
+    <section id="projects" class="s-works target-section">
 
         <div class="row heading-block heading-block--center" data-aos="fade-up">
             <div class="column large-full">
@@ -518,17 +491,40 @@
             </div>
         </div>
 
-            <div class="contact" id="contact">
-                <div class="container_contact">
+        <div class="contact" id="contact">
+            <div class="temp">
+                <span>Contact Info</span>
+                <span>Jonathan Kim</span>
+                <span><a href="mailto:Jonathankim980@gmail.com">Jonathankim980@gmail.com</a></span>
+                <span><a href="tel:254-278-0448">(254) 278 0448</a></span>
+                <span><a href="https://github.com/jkim1998" target="_blank"><i class="fab fa-github">Github.com/Jkim1998</i></a></span>
+                <span><a href="https://www.linkedin.com/in/jonathankim8756/" target="_blank"><i class="fab fa-linkedin-in">Linkedin.com/in/JonathanKim8756</i></a></span>
+            </div> 
+            <div class="row">
+                <!-- <div class="container_contact"> -->
                     <!--below link created @ https://formsubmit.co/email-link-->
-                    <form action="https://formsubmit.co/jonathankim980@gmail.com" method="POST">
+                    <form action="https://formsubmit.co/jonathankim980@gmail.com" method="POST" class="test2">
                         <h7>Contact me</h7><br><br>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" placeholder="Full Name" required>
-                    
-                        <label for="email">Email</label>
-                        <input type="email" name="email" placeholder="Email" required>
-                    
+                        <div class="form_row">  
+                            <div class="form_column">
+                                <label for="Fname">First Name</label>
+                                <input type="text" name="Fname" placeholder="First Name" required class="short">
+                            </div>
+                            <div class="form_column">
+                                <label for="Lname">Last Name</label>
+                                <input type="text" name="Lname" placeholder="Last Name" required class="short">
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="form_column">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" placeholder="ex@email.com" required>
+                            </div>
+                            <div class="form_column">
+                                <label for="tel">Phone Number</label>
+                                <input type="tel" name="tel" placeholder="(123) 345-7890">
+                            </div>
+                        </div>
                         <label for="purpose">Purpose</label>
                         <select id="purpose" name="purpose">
                                 <option value="comment">Comment</option>
@@ -536,17 +532,13 @@
                                 <option value="etc">Others</option>
                         </select>
                         <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="->"></textarea>
-                        <div>
-                        <button type="submit">Send</button>
+                        <textarea id="subject" name="subject" placeholder="Write your message here"></textarea>
+                        <div class="test123">
+                            <button type="submit">Send</button>
+                        </div>
                     </form>
-                </div>
+            <!-- </div>  -->
             </div>
-
-        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
-
-         
-
         </div> <!-- end contact-infos -->
 
     </section> <!-- end s-contact -->
@@ -557,9 +549,9 @@
     <footer>
         <div class="row">
             <div class="column large-full ss-copyright">
-                <span>Jonathan Kim</span>
+                <span style="color:white">Jonathan Kim</span>
                 <span><a href="tel:254-278-0448">(254) 278 0448</a></span>
-                <span>Jonathankim980@gmail.com</span>
+                <span><a href="mailto:Jonathankim980@gmail.com">Jonathankim980@gmail.com</a></span>
                 
                 <span><a href="https://github.com/jkim1998"><i class="fab fa-github" aria-hidden="true"></i></a></span>
                 <span><a href="https://www.linkedin.com/in/jonathankim8756/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></span>
