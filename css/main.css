@@ -2882,9 +2882,9 @@ input::-moz-focus-inner {
   color: #000000;
 }
 
-#skills a {
+/* #skills a {
   width: 40%;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -3041,12 +3041,17 @@ input::-moz-focus-inner {
  * ------------------------------------------------ */
 .item-folio__text {
   margin-top: 8.92%;
+  gap: 200px;
 }
 
 .item-folio__text,
-.item-folio__title,
-.item-folio__cat {
+.item-folio__title {
   display: inline-block;
+}
+
+.item-folio__cat {
+  display: flex;
+  flex-direction: row;
 }
 
 .item-folio__title,
@@ -3075,6 +3080,10 @@ input::-moz-focus-inner {
 
 .item-folio__caption {
   display: none;
+}
+
+.project_language {
+  height: 20px;
 }
 
 /* ------------------------------------------------------------------- 
